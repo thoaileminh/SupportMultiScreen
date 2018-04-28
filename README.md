@@ -6,7 +6,7 @@ An Support Multi Screen for Android applications (4.0+).
 
 An android SDK that provides a new size unit - sdp (scalable dp). This size unit scales with the screen size. It can help Android developers with supporting multiple screens.
 
-## How to use SupportMultiScreen
+## How to use and install SupportMultiScreen
 
 ##### Step 1. Add the JitPack repository to your build file
 Add this in your root `build.gradle` file (**not** your app `build.gradle` file):
