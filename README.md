@@ -24,8 +24,8 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.thoaileminh:SupportMultiScreen:1.1'
-    //or compile 'com.github.thoaileminh:SupportMultiScreen:1.1'
+    implementation 'com.github.thoaileminh:SupportMultiScreen:1.2'
+    //or compile 'com.github.thoaileminh:SupportMultiScreen:1.2'
 }
 ```
 
