@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/rlMain"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#F6F6F6">
 
     <ScrollView
-        android:id="@+id/svMain"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fillViewport="true">
@@ -23,10 +21,9 @@
                 android:layout_height="@dimen/_80sdp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="@dimen/_40sdp"
-                android:background="@drawable/ic_launcher" />
+                android:background="@drawable/ic_s_logo_launcher" />
 
             <EditText
-                android:id="@+id/edEmail"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_gravity="center_horizontal"
@@ -40,7 +37,6 @@
                 android:textSize="@dimen/_14sdp" />
 
             <EditText
-                android:id="@+id/edPassword"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_40sdp"
                 android:layout_gravity="center_horizontal"
@@ -58,7 +54,6 @@
                 android:layout_height="wrap_content">
 
                 <TextView
-                    android:id="@+id/tvForgotPassword"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentEnd="true"
@@ -72,7 +67,6 @@
             </RelativeLayout>
 
             <Button
-                android:id="@+id/btLogin"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_35sdp"
                 android:layout_gravity="center_horizontal"
@@ -85,7 +79,6 @@
                 android:textSize="@dimen/_12sdp" />
 
             <LinearLayout
-                android:id="@+id/lnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="@dimen/_10sdp"
@@ -100,7 +93,6 @@
                     android:textSize="@dimen/_14sdp" />
 
                 <TextView
-                    android:id="@+id/tvRegister"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="@dimen/_5sdp"
